@@ -1,6 +1,6 @@
 import { useEffect, useState} from 'react'
 import { useProductStore } from '../store/product';
-import { name } from 'ejs';
+// import { name } from 'ejs';
 
 const Modal = ({isOpen, isClose, product}) => {
     const { updateProduct } = useProductStore();
